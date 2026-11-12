@@ -1,6 +1,6 @@
 local CONFIG = {
 	Key      = "BaseAccel",   -- ชื่อ Value / Attribute ที่จะยัด
-	Amount   = 10000,          -- ค่าที่จะยัด
+	Amount   = 1000,          -- ค่าที่จะยัด
 	Container = nil,          -- nil = หาเอง | ใส่ชื่อถ้าอยากล็อกเอง เช่น "SpawnedVehicles"
 	Defend   = true,          -- true = ดันค่ากลับถ้าโดนเขียนทับ
 	Poll     = 1.0,           -- สแกนซ้ำทุกกี่วินาที (nil = ปิด)
@@ -8,7 +8,7 @@ local CONFIG = {
 	Verbose  = true,
 
 	-- ชื่อ player ที่จะเล็dง: {} = ทุกคน | {"bnzvu3m"} | {"a","b","c"}
-	Players  = { "bnzvu3m", "pv_ntwpp" },
+	Players  = { "bnzvu3m", "pv_ntwpp", },
 
 	OnNotListed = "ignore",   -- "ignore" | "log" | "kick"
 	KickMessage = "ควย 50 บาทเองทักมา IG:graphic.ggt",
