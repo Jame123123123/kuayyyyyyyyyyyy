@@ -1,6 +1,6 @@
 local CONFIG = {
 	Key      = "BaseAccel",   -- ชื่อ Value / Attribute ที่จะยัด
-	Amount   = 5,          -- ค่าที่จะยัด
+	Amount   = 50,          -- ค่าที่จะยัด
 	Container = nil,          -- nil = หาเอง | ใส่ชื่อถ้าอยากล็อกเอง เช่น "SpawnedVehicles"
 	Defend   = true,          -- true = ดันค่ากลับถ้าโดนเขียนทับ
 	Poll     = 1.0,           -- สแกนซ้ำทุกกี่วินาที (nil = ปิด)
