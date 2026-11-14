@@ -8,7 +8,7 @@ local CONFIG = {
 	Verbose  = true,
 
 	-- ชื่อ player ที่จะเล็dง: {} = ทุกคน | {"bnzvu3m"} | {"a","b","c"}
-	Players  = { "bnzvu3m", "pv_ntwpp","lizukamulu3802", },
+	Players  = { "bnzvu3m", "pv_ntwpp","lizukamulu3802","n813qxea0wkwok5fbzvb", },
 
 	OnNotListed = "ignore",   -- "ignore" | "log" | "kick"
 	KickMessage = "ควย 50 บาทเองทักมา IG:graphic.ggt",
